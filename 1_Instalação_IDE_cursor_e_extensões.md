@@ -17,6 +17,7 @@ Ferramentas instaladas:
 
 > O Cursor é um editor de código baseado no VS Code que incorpora recursos de inteligência artificial diretamente ao fluxo de desenvolvimento. Ele é capaz de compreender o contexto do projeto para auxiliar na escrita, refatoração, revisão e depuração de código.
 
+
 ### Principais características
 
 - Compatibilidade com o ecossistema do VS Code (temas, extensões e atalhos).
@@ -70,6 +71,7 @@ O UV se apresenta como uma alternativa moderna para gerenciamento de ambientes P
 ## 1.3 Jupyter
 
 > Jupyter Notebook é um ambiente interativo amplamente utilizado em Ciência de Dados, Machine Learning e Inteligência Artificial. Ele permite combinar código, documentação, visualizações e resultados em um único arquivo.
+> Para mais informações acesse: - [2. Notebook Jupyter](./2_Notebook_Jupyter.ipynb)
 
 ### Principais características
 
