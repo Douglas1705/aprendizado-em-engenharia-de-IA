@@ -71,7 +71,9 @@ O UV se apresenta como uma alternativa moderna para gerenciamento de ambientes P
 ## 1.3 Jupyter
 
 > Jupyter Notebook é um ambiente interativo amplamente utilizado em Ciência de Dados, Machine Learning e Inteligência Artificial. Ele permite combinar código, documentação, visualizações e resultados em um único arquivo.
-> Para mais informações acesse: - [2. Notebook Jupyter](./2_Notebook_Jupyter.ipynb)
+
+> Para mais informações acesse: 
+> - [2. Notebook Jupyter](./2_Notebook_Jupyter.ipynb)
 
 ### Principais características
 
