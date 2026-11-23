@@ -17,7 +17,6 @@ Ferramentas instaladas:
 
 > O Cursor é um editor de código baseado no VS Code que incorpora recursos de inteligência artificial diretamente ao fluxo de desenvolvimento. Ele é capaz de compreender o contexto do projeto para auxiliar na escrita, refatoração, revisão e depuração de código.
 
-
 ### Principais características
 
 - Compatibilidade com o ecossistema do VS Code (temas, extensões e atalhos).
@@ -44,11 +43,11 @@ O principal diferencial do Cursor em relação ao VS Code é a integração nati
 
 ### Principais recursos
 
-- Instalação rápida de dependências.
-- Criação e gerenciamento de ambientes virtuais.
-- Gerenciamento de projetos Python via `pyproject.toml`.
-- Controle de versões do Python.
-- Execução de ferramentas e scripts isolados.
+* Instalação ultrarrápida de dependências.
+* Criação e gerenciamento automático de ambientes virtuais.
+* Gerenciamento de projetos Python via `pyproject.toml`.
+* Controle e instalação de diferentes versões do Python.
+* Execução de ferramentas e scripts isolados.
 
 ### Instalação
 
@@ -62,6 +61,33 @@ No Windows, execute o PowerShell como Administrador e utilize o comando:
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
+## Primeiros passos e criação de um projeto
+
+1 - Verificando se o UV foi instalado:
+
+```
+uv --version
+```
+
+2 - Atualizando o UV para a versão mais recente (opcional):
+
+```
+uv self update
+```
+
+3 - Inicializando um novo projeto:
+Dentro da pasta do seu projeto, execute o comando abaixo para gerar os arquivos base (incluindo o pyproject.toml):
+
+```
+uv init
+```
+
+4 - Instalar as bibliotecas
+
+```
+uv add openai
+```
+
 ### Minha percepção
 
 O UV se apresenta como uma alternativa moderna para gerenciamento de ambientes Python, simplificando tarefas que normalmente exigiriam várias ferramentas diferentes.
@@ -73,6 +99,7 @@ O UV se apresenta como uma alternativa moderna para gerenciamento de ambientes P
 > Jupyter Notebook é um ambiente interativo amplamente utilizado em Ciência de Dados, Machine Learning e Inteligência Artificial. Ele permite combinar código, documentação, visualizações e resultados em um único arquivo.
 
 > Para mais informações acesse: 
+>
 > - [2. Notebook Jupyter](./2_Notebook_Jupyter.ipynb)
 
 ### Principais características

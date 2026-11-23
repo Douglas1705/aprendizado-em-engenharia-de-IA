@@ -1,0 +1,22 @@
+[project]
+name = "aprendizado-em-engenharia-de-ia"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Douglas1705", email = "bertoldi_douglas@hotmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "ipython>=9.18.1",
+    "openai>=3.57.0",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+aprendizado-em-engenharia-de-ia = "aprendizado_em_engenharia_de_ia:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
